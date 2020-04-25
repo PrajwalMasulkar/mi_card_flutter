@@ -38,6 +38,13 @@ class MyApp extends StatelessWidget {
                  fontWeight: FontWeight.bold,
                ),
              )
+             Container(
+               child: Row(
+                 children: <Widget>[
+                   Icon
+                 ],
+               ),
+             )
            ],
          ),
         ),
