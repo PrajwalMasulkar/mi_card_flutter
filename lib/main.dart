@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
                ),
              ),
              Container(
+
                padding: EdgeInsets.all(10.0),
                color: Colors.white,
                margin: EdgeInsets.symmetric(vertical: 10.0,
@@ -57,6 +58,31 @@ class MyApp extends StatelessWidget {
                      fontFamily: 'Sorce Sans Pro',
                      fontSize: 20.0,
                    ),)
+                 ],
+               ),
+             ),
+             Container(
+               color: Colors.white,
+               padding: EdgeInsets.all(10.0),
+               margin: EdgeInsets.symmetric(vertical: 10.0,
+               horizontal: 25.0),
+               child: Row(
+                 children: <Widget>[
+                   Icon(
+                       Icons.email,
+                   color: Colors.teal,
+                   ),
+                   SizedBox(
+                     width: 10.0,
+                   ),
+                   Text(
+                     'prajwalmasulkar75@gmail.com',
+                     style: TextStyle(
+                       fontSize: 20.0,
+                       color: Colors.black,
+                       fontFamily: 'Source Sans Pro'
+                     ),
+                   )
                  ],
                ),
              )
