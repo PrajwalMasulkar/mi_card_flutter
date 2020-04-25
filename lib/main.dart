@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
              Container(
                child: Row(
                  children: <Widget>[
-                   Icon
+                   Icon(icon)
                  ],
                ),
              )
