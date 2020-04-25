@@ -39,30 +39,23 @@ class MyApp extends StatelessWidget {
                ),
              ),
              Card(
-
-
-               color: Colors.white,
                margin: EdgeInsets.symmetric(vertical: 10.0,
                horizontal: 25.0),
-               child: Row(
-                 children: <Widget>[
-                   Icon(
-                       Icons.phone,
-                     color: Colors.white,
-                   ),
-                   SizedBox(
-                     width: 10.0
-                   ),
-                   Text('+91 8085285325',style: TextStyle(
-                     color: Colors.black,
-                     fontFamily: 'Sorce Sans Pro',
-                     fontSize: 20.0,
-                   ),)
-                 ],
-               ),
+
+               child: ListTile(
+                 leading: Icon(
+                   Icons.phone,
+                   color: Colors.teal,
+                 ),
+                 title: Text('+91 8085285325',style: TextStyle(
+                   color: Colors.black,
+                   fontFamily: 'Sorce Sans Pro',
+                   fontSize: 20.0,
+                 ),
+                 ),
+               )
              ),
              Card(
-               color: Colors.white,
                margin: EdgeInsets.symmetric(vertical: 10.0,
                horizontal: 25.0),
                child: ListTile(
@@ -92,3 +85,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
